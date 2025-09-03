@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -48,7 +48,7 @@ a,
 }
 
 /* Navigation*/
- nav, .nav-links{
+ nav, .nav-links {
     display: flex;
  }
  nav {
@@ -220,7 +220,12 @@ section {
    margin-top: 1rem;
    gap: 1rem;
 }
-
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
 /* ICONS*/
 
 .icon {

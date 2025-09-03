@@ -37,6 +37,7 @@ section {
 width: 275px;
 height: 275px;
 margin-top: 0 auto 2rem;
+justify-content: center;
 }
 
 .about-containers{
@@ -63,6 +64,12 @@ margin-top: 0 auto 2rem;
 {flex-wrap: wrap;}
  
 }
+@media screen and (max-width: 600px) {
+    .section__pic-container {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+}
 
- 
 
