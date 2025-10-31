@@ -72,4 +72,14 @@ justify-content: center;
     }
 }
 
+@media screen and (max-width: 400px){
+    .section__text__p2 {
+        font-size: 1.5rem;
+    }
+    .title {
+        font-size: 2.5rem;
+    }
+}
+
+
 
