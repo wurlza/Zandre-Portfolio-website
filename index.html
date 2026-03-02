@@ -10,34 +10,36 @@
    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-   <nav id ="desktop-nav">
-        <div class="logo">Zandre Golden</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
+   <nav id="desktop-nav">
+  <div class="logo">Zandre Golden</div>
+  <div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<nav id="hamburger-nav">
+  <div class="logo">Zandre Golden</div>
+  <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
-    </nav>
-    <nav id="hamburger-nav">
-         <div class="logo">Zandre Golden</div>
-         <div class="hamburger-menu">
-         <div class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-         </div>
-          <div class="hamburger-icon" onclick="toggleMenu()">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-         </div>
-        </div>
-    </nav>
+    <div class="menu-links">
+      <li><a href="#about" onclick="toggleMenu()">About</a></li>
+      <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+      <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+      <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+  </div>
+</nav>
     <section id="profile">
         <div class="section__pic-container">
             <img src="assets/za profile 2.webp" alt="Zandre Golden Profile picture">
@@ -269,7 +271,7 @@ I'm not a jack-of-all-trades. I'm a specialist in one thing: making your website
       </div>
     </section>
     
-    <section id="Core services">
+    <section id="services">
       <!-- ========== CORE SERVICES SECTION - BLACK & WHITE ========== -->
 
 <div class="services-container">
