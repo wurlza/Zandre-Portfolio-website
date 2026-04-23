@@ -366,7 +366,13 @@ section {
    width: 400px;
    margin: auto o;
 }
-
+.dynamic-headline {
+            font-size: 1.8rem;
+            font-weight: 500;
+            color: #222;
+            min-height: 80px;
+            margin: 1rem 0;
+        }
 /* EXPERIENCE section*/
 
 #experience {
