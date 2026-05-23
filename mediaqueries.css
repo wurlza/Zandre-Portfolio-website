@@ -53,8 +53,8 @@
     height: fit-content;
   }
   #profile {
-    height: 66vh;
-    margin-bottom: 0;
+    height: 40vh;
+    margin: 20px
   }
   article {
     font-size: 1rem;
@@ -65,8 +65,9 @@
   }
   .about-containers,
   .contact-info-upper-container,
-  .btn-container {
+  .btn-container, .details-container {
     flex-wrap: wrap;
+    margin: 20px
   }
   .contact-info-container {
     margin: 0;
