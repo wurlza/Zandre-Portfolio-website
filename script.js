@@ -23,6 +23,7 @@ function toggleMenu() {
     if(typedEl) typeEffect();
 
 // Optional: Close menu when clicking outside
+description="A website performance and SEO specialist focused on optimizing speed and achieving 100% Lighthouse scores for growth."
 document.addEventListener('click', function(event) {
   const menu = document.querySelector(".menu-links");
   const icon = document.querySelector(".hamburger-icon");
